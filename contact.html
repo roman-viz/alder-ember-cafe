@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact — Alder & Ember</title>
+    <meta name="description" content="Opening hours, address and a message form for Alder & Ember.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <meta name="theme-color" content="#F5F0E7">
+    <link rel="stylesheet" href="css/style.css">
+    <script>document.documentElement.classList.add('js')</script>
+  </head>
+  <body data-page="contact"><a class="skip" href="#main">Skip to content</a>
+    <header class="nav" id="nav"><a class="brand" href="index.html" aria-label="Alder &amp; Ember, home">Alder <i>&amp;</i> Ember</a>
+      <button class="burger" aria-expanded="false" aria-controls="menu"><span class="sr">Menu</span><b></b><b></b></button>
+      <nav id="menu" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="contact.html" aria-current="page">Contact</a><a class="btn sm" href="index.html#map" data-visit>Visit us</a></nav>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="wrap">
+          <p class="label">Contact</p>
+          <h1 class="reveal">Say hello, or just come in.</h1>
+        </div>
+      </section>
+      <section class="sec tight">
+        <div class="wrap split">
+          <div class="reveal">
+            <h2>Visit</h2>
+            <address class="info">
+              <p><b>Address</b><br>Rynok Square 1, Lviv 79008, Ukraine</p>
+              <p><b>Phone</b><br><a href="tel:+380322550142">+380 32 255 0142</a></p>
+              <p><b>Email</b><br><a href="mailto:hello@alderandember.com">hello@alderandember.com</a></p>
+              <p><b>Hours</b><br>Mon–Fri 7:30–17:00<br>Sat–Sun 8:30–16:00</p>
+              <p><b>Social</b><br><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a> · <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a></p>
+            </address>
+          </div>
+          <form class="reveal" id="form" novalidate>
+            <h2>Write to us</h2>
+            <div class="f"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required aria-describedby="e-name">
+              <p class="err" id="e-name" role="alert"></p>
+            </div>
+            <div class="f"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="e-email">
+              <p class="err" id="e-email" role="alert"></p>
+            </div>
+            <div class="f"><label for="msg">Message</label><textarea id="msg" name="msg" rows="5" required minlength="10" aria-describedby="e-msg"></textarea>
+              <p class="err" id="e-msg" role="alert"></p>
+            </div>
+            <button class="btn" type="submit">Send message <span class="arr">→</span></button>
+            <p class="ok" id="ok" role="status" hidden>Thanks, your message is ready to send. Delivery is not connected yet; see README to hook the form to your email service.</p>
+          </form>
+        </div>
+      </section>
+      <section class="sec tight" id="map">
+        <div class="wrap">
+          <div class="map reveal">
+            <iframe title="Map showing Rynok Square, Lviv" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=24.0265%2C49.8395%2C24.0365%2C49.8445&amp;layer=mapnik&amp;marker=49.8419%2C24.0315"></iframe><a class="link" href="https://www.openstreetmap.org/?mlat=49.8419&amp;mlon=24.0315#map=17/49.8419/24.0315" target="_blank" rel="noopener">Open larger map</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <div class="wrap grid4">
+        <div>
+          <p class="brand">Alder <i>&amp;</i> Ember</p>
+          <p class="muted">Slow coffee and honest food, made in small batches since 2016.</p>
+        </div>
+        <nav aria-label="Footer"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="contact.html">Contact</a></nav>
+        <address><a href="tel:+380322550142">+380 32 255 0142</a><a href="mailto:hello@alderandember.com">hello@alderandember.com</a><span>Rynok Square 1, Lviv 79008, Ukraine</span></address>
+        <div class="social"><a href="https://instagram.com/" rel="noopener" target="_blank">Instagram</a><a href="https://facebook.com/" rel="noopener" target="_blank">Facebook</a><a href="https://tiktok.com/" rel="noopener" target="_blank">TikTok</a></div>
+      </div>
+      <p class="wrap copy">&copy; 2026 Alder &amp; Ember.</p>
+    </footer>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><title>Menu — Alder & Ember</title>
+    <meta name="description" content="Breakfast, lunch, drinks and desserts at Alder & Ember (sample menu).">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <meta name="theme-color" content="#F5F0E7">
+    <link rel="stylesheet" href="css/style.css">
+    <script>document.documentElement.classList.add('js')</script>
+  </head>
+  <body data-page="menu"><a class="skip" href="#main">Skip to content</a>
+    <header class="nav" id="nav"><a class="brand" href="index.html" aria-label="Alder &amp; Ember, home">Alder <i>&amp;</i> Ember</a>
+      <button class="burger" aria-expanded="false" aria-controls="menu"><span class="sr">Menu</span><b></b><b></b></button>
+      <nav id="menu" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html" aria-current="page">Menu</a><a href="contact.html">Contact</a><a class="btn sm" href="index.html#map" data-visit>Visit us</a></nav>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="wrap">
+          <p class="label">Menu</p>
+          <h1 class="reveal">What’s on the table.</h1>
+          <p class="lead">Prices in euros. V = vegetarian, VG = vegan. Please ask staff about allergens.</p>
+        </div>
+      </section>
+      <section class="sec tight">
+        <div class="wrap narrow">
+          <div class="tabs" role="tablist" aria-label="Menu categories">
+            <button role="tab" id="t-Breakfast" aria-controls="p-Breakfast" aria-selected="true" tabindex="0">Breakfast</button>
+            <button role="tab" id="t-Lunch" aria-controls="p-Lunch" aria-selected="false" tabindex="-1">Lunch</button>
+            <button role="tab" id="t-Drinks" aria-controls="p-Drinks" aria-selected="false" tabindex="-1">Drinks</button>
+            <button role="tab" id="t-Desserts" aria-controls="p-Desserts" aria-selected="false" tabindex="-1">Desserts</button>
+          </div>
+          <div class="panel" role="tabpanel" id="p-Breakfast" aria-labelledby="t-Breakfast">
+            <h2>Breakfast</h2>
+            <ul class="items">
+              <li>
+                <div>
+                  <h3>Ember toast <small>V</small></h3>
+                  <p>Sourdough, whipped ricotta, roasted figs, thyme honey</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$9.50</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Soft scramble</h3>
+                  <p>Free-range eggs, chives, buttered rye</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$10.00</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Orchard granola bowl <small>V</small></h3>
+                  <p>Oats, baked apple, yoghurt, toasted seeds</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$8.50</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Smoked trout plate</h3>
+                  <p>Soda bread, crème fraîche, pickled shallot</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$13.00</span>
+              </li>
+            </ul>
+          </div>
+          <div class="panel" role="tabpanel" id="p-Lunch" aria-labelledby="t-Lunch" hidden>
+            <h2>Lunch</h2>
+            <ul class="items">
+              <li>
+                <div>
+                  <h3>Roast squash soup <small>VG</small></h3>
+                  <p>Sage oil, pumpkin seeds, warm bread</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$8.00</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Alder sandwich</h3>
+                  <p>Roast chicken, apple slaw, aioli, ciabatta</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$11.50</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Grain bowl <small>V</small></h3>
+                  <p>Barley, charred greens, tahini, soft egg</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$12.00</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Tomato and burrata tart <small>V</small></h3>
+                  <p>Puff pastry, basil, aged balsamic</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$11.00</span>
+              </li>
+            </ul>
+          </div>
+          <div class="panel" role="tabpanel" id="p-Drinks" aria-labelledby="t-Drinks" hidden>
+            <h2>Drinks</h2>
+            <ul class="items">
+              <li>
+                <div>
+                  <h3>Espresso</h3>
+                  <p>Double shot, our house blend</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$3.00</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Flat white</h3>
+                  <p>Silky milk, two shots</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$4.20</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Filter of the week</h3>
+                  <p>Single origin, brewed to order</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$4.00</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Ember latte</h3>
+                  <p>Cinnamon, vanilla and a pinch of sea salt</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$4.80</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Hot chocolate</h3>
+                  <p>Dark chocolate, whole milk</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$4.50</span>
+              </li>
+            </ul>
+          </div>
+          <div class="panel" role="tabpanel" id="p-Desserts" aria-labelledby="t-Desserts" hidden>
+            <h2>Desserts</h2>
+            <ul class="items">
+              <li>
+                <div>
+                  <h3>Butter croissant <small>V</small></h3>
+                  <p>Baked each morning</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$3.20</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Burnt honey cheesecake <small>V</small></h3>
+                  <p>Crisp base, seasonal fruit</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$6.50</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Pistachio financier <small>V</small></h3>
+                  <p>Brown butter, almond, pistachio</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$3.80</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Dark chocolate pot <small>V</small></h3>
+                  <p>Sea salt, olive oil, cream</p>
+                </div><span class="dots" aria-hidden="true"></span><span class="price">$5.50</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <div class="wrap grid4">
+        <div>
+          <p class="brand">Alder <i>&amp;</i> Ember</p>
+          <p class="muted">Slow coffee and honest food, made in small batches since 2016.</p>
+        </div>
+        <nav aria-label="Footer"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="contact.html">Contact</a></nav>
+        <address><a href="tel:+380322550142">+380 32 255 0142</a><a href="mailto:hello@alderandember.com">hello@alderandember.com</a><span>Rynok Square 1, Lviv 79008, Ukraine</span></address>
+        <div class="social"><a href="https://instagram.com/" rel="noopener" target="_blank">Instagram</a><a href="https://facebook.com/" rel="noopener" target="_blank">Facebook</a><a href="https://tiktok.com/" rel="noopener" target="_blank">TikTok</a></div>
+      </div>
+      <p class="wrap copy">&copy; 2026 Alder &amp; Ember.</p>
+    </footer>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
